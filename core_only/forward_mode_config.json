@@ -1,5 +1,5 @@
 {
   "kernels": ["Max"],
-  "outputPath": "./tiny_tfjs.js",
-  "forwardModeOnly": false
+  "outputPath": "./forward_mode_tfjs.js",
+  "forwardModeOnly": true
 }

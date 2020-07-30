@@ -1,0 +1,6 @@
+{
+  "kernels": ["Max"],
+  "outputPath": "./forwad_mode_tfjs.js",
+  "forwardModeOnly": false,
+  "backends": ["Foo"]
+}
