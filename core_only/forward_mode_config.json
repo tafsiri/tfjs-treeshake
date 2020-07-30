@@ -1,0 +1,5 @@
+{
+  "kernels": ["Max"],
+  "outputPath": "./tiny_tfjs.js",
+  "forwardModeOnly": false
+}
