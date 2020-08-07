@@ -960,6 +960,13 @@
   version "0.0.0"
   uid ""
 
+"@tensorflow/tfjs-backend-wasm@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-backend-wasm/-/tfjs-backend-wasm-2.1.0.tgz#9cd2daec942dbfa3edbb882e310f42f5fe39e009"
+  integrity sha512-0tjuJjUr/QGawI3DCS7nOj1EIRdZWeR/K8Oez5Ja7hfr4Jfq9F5Zn/nXYrlLeEBFkGsTUZjFy/cIfTkEgA44gw==
+  dependencies:
+    "@types/emscripten" "~0.0.34"
+
 "@tensorflow/tfjs-backend-webgl@link:../../tfjs-core-workspace/tfjs-backend-webgl":
   version "0.0.0"
   uid ""
@@ -988,6 +995,11 @@
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
   integrity sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==
+
+"@types/emscripten@~0.0.34":
+  version "0.0.34"
+  resolved "https://registry.yarnpkg.com/@types/emscripten/-/emscripten-0.0.34.tgz#12b4a344274fb102ff2f6c877b37587bc3e46008"
+  integrity sha512-QSb9ojDincskc+uKMI0KXp8e1NALFINCrMlp8VGKGcTSxeEyRTTKyjWw75NYrCZHUsVEEEpr1tYHpbtaC++/sQ==
 
 "@types/estree@*":
   version "0.0.45"

@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "@tensorflow/tfjs": "link:../../tfjs-core-workspace/tfjs"
+    "@tensorflow/tfjs": "link:../../tfjs-core-workspace/tfjs",
+    "@tensorflow/tfjs-backend-wasm": "2.1.0"
+  },
+  "scripts": {
+    "copy-wasm": "\\cp -rf ../../tfjs-core-workspace/tfjs-backend-wasm/dist node_modules/@tensorflow/tfjs-backend-wasm/ && \\cp -rf ../../tfjs-core-workspace/tfjs-backend-wasm/wasm-out node_modules/@tensorflow/tfjs-backend-wasm/",
+    "rollup-forward": "rollup -c forward_mode.rollup.config.js",
+    "rollup-training": "rollup -c training.rollup.config.js"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^14.0.0",
