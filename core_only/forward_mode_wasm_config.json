@@ -1,0 +1,6 @@
+{
+  "kernels": ["Max"],
+  "backends": ["wasm"],
+  "outputPath": "./custom_tfjs_wasm.js",
+  "forwardModeOnly": true
+}

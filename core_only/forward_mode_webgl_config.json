@@ -1,0 +1,6 @@
+{
+  "kernels": ["Max"],
+  "backends": ["webgl"],
+  "outputPath": "./custom_tfjs_webgl.js",
+  "forwardModeOnly": true
+}

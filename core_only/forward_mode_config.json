@@ -1,6 +1,0 @@
-{
-  "kernels": ["Max"],
-  "backends": ["cpu", "webgl", "wasm"],
-  "outputPath": "./forward_mode_tfjs.js",
-  "forwardModeOnly": true
-}
