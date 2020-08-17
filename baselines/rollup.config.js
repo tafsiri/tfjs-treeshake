@@ -58,4 +58,16 @@ export default [
       visualizer({sourcemap, filename: `dist/core_webgl.js.html`}),
     ],
   },
+  {
+    input: 'core_webgl_converter.js',
+    output: {
+      sourcemap,
+      file: 'dist/core_webgl_converter.js',
+      format,
+    },
+    plugins: [
+      ...plugins,
+      visualizer({sourcemap, filename: `dist/core_webgl_converter.js.html`}),
+    ],
+  },
 ]
