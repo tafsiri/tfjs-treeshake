@@ -7,7 +7,7 @@ Rows below that represent bundles built using the custom build tools and particu
 
 |File   |Size (minified)   |Size (min +gzip) |Desc   |
 |---|---|---|---|
-|[baselines_1.7.3/dist/union_package.js](https://ghcdn.rawgit.org/tafsiri/tfjs-treeshake/master/baselines/dist/union_package.js.html)|933KB   |217K  |Single op built against union + wasm (2.1.0)   |
+|[baselines_1.7.3/dist/union_package.js](https://ghcdn.rawgit.org/tafsiri/tfjs-treeshake/master/baselines_1.7.3/dist/union_package.js.html)|933KB   |217K  |Single op built against union + wasm (2.1.0)   |
 |[baselines/dist/union_package.js](https://ghcdn.rawgit.org/tafsiri/tfjs-treeshake/master/baselines/dist/union_package.js.html)|745KB   |182K  |Single op built against union + wasm (2.1.0)   |
 |[baselines/dist/core_wasm.js](https://ghcdn.rawgit.org/tafsiri/tfjs-treeshake/master/baselines/dist/core_wasm.js.html)|279KB   |71K  |Single op built against core + wasm (2.1.0)  |
 |[baselines/dist/core_webgl.js](https://ghcdn.rawgit.org/tafsiri/tfjs-treeshake/master/baselines/dist/core_webgl.js.html)|448KB   |110K  |Single op built against core + webgl  (2.1.0) |
