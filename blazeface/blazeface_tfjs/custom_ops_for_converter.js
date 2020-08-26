@@ -1,0 +1,14 @@
+import {conv2d} from '@tensorflow/tfjs-core/dist/ops/fused_conv2d';
+import {depthwiseConv2d} from '@tensorflow/tfjs-core/dist/ops/fused_depthwise_conv2d';
+export const fused = {conv2d, depthwiseConv2d};
+export * from '@tensorflow/tfjs-core/dist/ops/depthwise_conv2d';
+export * from '@tensorflow/tfjs-core/dist/ops/add';
+export * from '@tensorflow/tfjs-core/dist/ops/relu';
+export * from '@tensorflow/tfjs-core/dist/ops/pad';
+export * from '@tensorflow/tfjs-core/dist/ops/max_pool';
+export * from '@tensorflow/tfjs-core/dist/ops/tensor1d';
+export * from '@tensorflow/tfjs-core/dist/ops/strided_slice';
+export * from '@tensorflow/tfjs-core/dist/ops/squeeze';
+export * from '@tensorflow/tfjs-core/dist/ops/reshape';
+export * from '@tensorflow/tfjs-core/dist/ops/stack';
+export * from '@tensorflow/tfjs-core/dist/ops/concat';
