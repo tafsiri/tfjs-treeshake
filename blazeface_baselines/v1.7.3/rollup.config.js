@@ -11,6 +11,7 @@ const sourcemap = true;
 function getPlugins(options) {
   const plugins = [
     resolve({
+      mainFields: ['main'],
       dedupe: ['seedrandom'],
     }),
     commonjs({

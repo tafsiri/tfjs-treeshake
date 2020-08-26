@@ -23,6 +23,6 @@ Rows below that represent bundles built using the custom build tools and particu
 
 |File   |Size (minified)   |Size (min +gzip) |Desc   |
 |---|---|---|---|
-|[blazeface_baselines/v1.7.3/](https://ghcdn.rawgit.org/tafsiri/tfjs-treeshake/master/blazeface_baselines/v1.7.3/dist/blazeface_demo.js.html)|663KB   |157K  |Working blazeface demo built against tfjs-core, tfjs-converter, tfjs-backend-wasm @1.7.3  |
+|[blazeface_baselines/v1.7.3/](https://ghcdn.rawgit.org/tafsiri/tfjs-treeshake/master/blazeface_baselines/v1.7.3/dist/blazeface_demo.js.html)|809KB   |177K  |Working blazeface demo built against tfjs-core, tfjs-converter, tfjs-backend-wasm @1.7.3  |
 |[blazeface_baselines/v2.1.0/](https://ghcdn.rawgit.org/tafsiri/tfjs-treeshake/master/blazeface_baselines/v2.1.0/dist/blazeface_demo.js.html)|380KB   |90K  |Working blazeface demo built against tfjs-core, tfjs-converter, tfjs-backend-wasm @2.1.0   |
 |[blazeface](https://ghcdn.rawgit.org/tafsiri/tfjs-treeshake/master/blazeface/dist/blazeface_demo.js.html)|293KB   |72K  |Working blazeface demo built against custom build. Config file in folder `blazeface_demo.config.json`. |
